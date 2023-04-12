@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textColor="@color/teal"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,TextContrastCheck" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/main" />
+
+        <EditText
+            android:id="@+id/email_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/teal"
+            tools:ignore="Autofill,HardcodedText,TextSizeCheck,TouchTargetSizeCheck,TextContrastCheck,VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/password_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/teal"
+            tools:ignore="Autofill,HardcodedText,TextContrastCheck,TextSizeCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/confirm_password_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textColor="@color/teal"
+            tools:ignore="Autofill,HardcodedText,TextSizeCheck,TouchTargetSizeCheck,TextContrastCheck,VisualLintTextFieldSize" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            />
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@color/teal"
+            android:text="Register"
+            android:textColor="@color/main"
+            tools:ignore="HardcodedText,TextContrastCheck,TextSizeCheck,VisualLintButtonSize" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="Already have an account?"
+            android:textColor="@color/teal"
+            tools:ignore="HardcodedText,TextSizeCheck,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/back_to_login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/teal"
+            android:text="Log in"
+            android:textColor="@color/main"
+            tools:ignore="HardcodedText,TextContrastCheck,TextSizeCheck" />
+
+    </LinearLayout>
+
+</ScrollView>
